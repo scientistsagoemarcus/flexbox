@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    background-color: gainsboro;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 18px;
+    flex-flow: row wrap;
+
+}
+
+.navbar>a {
+    flex: 0.09;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: #0445ae;
+
+
+}
+
+a:hover {
+    color: #4a3705;
+    touch-action: double-tap-zoom;
+}
+
+.home {
+    align-self: flex-start;
+
+}
+
+.navbar>a>.donate {
+    margin-left: 100%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.search>input {
+    border-radius: 5px;
+    /* margin-left: 70px; */
+    background-color: gainsboro;
+    /* padding-left: 40px; */
+    margin-left: 35%;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+
+.container>div>img {
+
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+}
+
+.container>div {
+
+    flex: 1 1 150px;
+
+}
+
+@media (max-width: 500px) {}
